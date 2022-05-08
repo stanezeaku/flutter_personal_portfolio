@@ -38,7 +38,7 @@ class _HomeQuoteState extends State<HomeQuote> {
             ),
           ),
           const Text(
-            "Ideas Don't Come out Fully Formed. They only become clear as you work on they. You just have to get started",
+            "Never have ideas come out fully formed. They only become clearer as you work on them. You just have to get started.",
             style: TextStyle(
               color: Colors.black,
               fontSize: 14,

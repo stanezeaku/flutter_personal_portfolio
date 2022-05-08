@@ -55,7 +55,7 @@ class Roadmap extends StatelessWidget {
                     children: [
                       const Center(
                         child: VerticalDivider(
-                          color: Color(0xff64FFDA),
+                          color: primaryColor,
                           thickness: 1.75,
                           width: 10,
                           indent: 10,

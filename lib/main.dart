@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:ifeetech/navigation/router.dart';
-import 'package:ifeetech/screens/home/home_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'constants.dart';

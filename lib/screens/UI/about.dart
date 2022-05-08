@@ -68,13 +68,13 @@ class _AboutState extends State<About> {
                   Wrap(
                     children: const [
                       AutoSizeText(
-                        "Hey! I'm Stanley Ezeaku, a Software Developer based in Dubai, UAE.\n\nI love building software applications that are innovative to Human improvement and enrichment\n\n",
+                        "Hey! I'm Stanley Ezeaku, a Software Developer based in Dubai, UAE.\n\nI love building software applications that are innovative to human improvement and advancement\n\n",
                         style: TextStyle(
                           color: Colors.white,
                         ),
                       ),
                       AutoSizeText(
-                        "As a self-thought software developer my principle of suceess revolves around my shared roapmap. I am a lover of open source and my ambition is to build and grow a proudly owned multinational technology company which main goal is to solve African needs for innovative tech solutions and empowerment.\n\n",
+                        "As a self-thought software developer my principle of suceess are clear thought and revolve around my shared roapmap. I am a lover of open source and my ambition is to build and proudly own a multinational tech company which main goal is to solve African needs, provide innovative tech solutions and empowerment.\n\n",
                         style: TextStyle(
                           color: Colors.white,
                         ),

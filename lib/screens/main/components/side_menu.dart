@@ -87,15 +87,15 @@ class SideMenu extends StatelessWidget {
                             ),
                             IconButton(
                               onPressed: () {
-                                method.launchURL(
-                                    "https://github.com/Stanley-Ezeaku");
+                                method
+                                    .launchURL("https://github.com/stanezeaku");
                               },
                               icon: SvgPicture.asset("assets/icons/github.svg"),
                             ),
                             IconButton(
                               onPressed: () {
                                 method.launchURL(
-                                    "https://twitter.com/stan_ezeaku");
+                                    "https://twitter.com/stanezeaku");
                               },
                               icon:
                                   SvgPicture.asset("assets/icons/twitter.svg"),

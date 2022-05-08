@@ -3,7 +3,6 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:ifeetech/responsive.dart';
-import 'package:ifeetech/screens/explore_zijemu.dart';
 
 import '../../../constants.dart';
 
@@ -98,15 +97,15 @@ class AnimatedText extends StatelessWidget {
       repeatForever: true,
       animatedTexts: [
         TyperAnimatedText(
-          "African Innovative Tech Startup",
+          "the African Innovative tech start up",
           speed: const Duration(milliseconds: 120),
         ),
         TyperAnimatedText(
-          "A redefine Online Marketplace for Made in Africa Products",
+          "a redefine online marketplace for African-made Products",
           speed: const Duration(milliseconds: 120),
         ),
         TyperAnimatedText(
-          "Online free tech education for open source",
+          "a free online tech platform for education and open sourcing",
           speed: const Duration(milliseconds: 120),
         ),
       ],
@@ -157,15 +156,15 @@ class AnimatedTextMobile extends StatelessWidget {
       repeatForever: true,
       animatedTexts: [
         TyperAnimatedText(
-          "I am building African Innovative Tech Startup",
+          "I am building the African Innovative tech start up",
           speed: const Duration(milliseconds: 120),
         ),
         TyperAnimatedText(
-          "I am building A redefine Online Marketplace for Made in Africa Products",
+          "I am building a redefine online marketplace for African-made Products",
           speed: const Duration(milliseconds: 120),
         ),
         TyperAnimatedText(
-          "I am building Online free tech education for open source",
+          "I am building a free online tech platform for education and open sourcing",
           speed: const Duration(milliseconds: 120),
         ),
       ],

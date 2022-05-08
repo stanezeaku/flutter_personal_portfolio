@@ -15,7 +15,7 @@ class AppBarTitle extends StatelessWidget {
     return GestureDetector(
       child: Padding(
         padding: const EdgeInsets.symmetric(
-          vertical: 14.0,
+          vertical: 2.0,
         ),
         child: Responsive.isDesktop(context)
             ? Text(
@@ -31,7 +31,7 @@ class AppBarTitle extends StatelessWidget {
                 text!,
                 textAlign: TextAlign.center,
                 style: const TextStyle(
-                  fontSize: 8.0,
+                  fontSize: 10.0,
                   // letterSpacing: 3.0,
                   // color: Color(0xffBAD0D0),
                 ),

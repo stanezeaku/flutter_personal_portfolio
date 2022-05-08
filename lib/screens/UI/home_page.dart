@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:go_router/go_router.dart';
-import 'package:ifeetech/constants.dart';
+
 import 'package:ifeetech/responsive.dart';
 import 'package:ifeetech/screens/method.dart';
 import 'package:ifeetech/screens/UI/about.dart';
@@ -165,14 +164,14 @@ class _HomePageState extends State<HomePage> {
                         color: const Color(0xffA8B2D1),
                         iconSize: 16.0,
                         onPressed: () {
-                          method.launchURL("https://github.com/Stanley-Ezeaku");
+                          method.launchURL("https://github.com/stanezeaku");
                         }),
                     IconButton(
                         icon: const FaIcon(FontAwesomeIcons.twitter),
                         color: const Color(0xffA8B2D1),
                         iconSize: 16.0,
                         onPressed: () {
-                          method.launchURL("https://twitter.com/stan_ezeaku");
+                          method.launchURL("https://twitter.com/stanezeaku");
                         }),
                     IconButton(
                       icon: const FaIcon(FontAwesomeIcons.linkedin),
