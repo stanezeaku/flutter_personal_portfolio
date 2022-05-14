@@ -52,6 +52,7 @@ class FeatureProject extends StatelessWidget {
                     description: value.description,
                     videoId: value.videoID,
                     githubUrl: value.githubUrl,
+                    youtubeUrl: value.youtubeUrl,
                   ),
                 ))
             .toList()
