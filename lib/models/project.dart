@@ -13,14 +13,14 @@ List<Project> demoProjects = [
       title: "SmartStan",
       description:
           "Simple Face Recognition authentication (Sign up + Sign in). It works with two device vision models working together, the google ML kit vision model and MobileFaceNet model.",
-      videoID: "k0r1AJMK79g",
+      videoID: "PgA3A8M5R0I",
       githubUrl: "https://github.com/Stanezeaku/smartstan"),
   Project(
-      title: "Z-Learning",
+      title: "ZLearning",
       description:
-          "An online learning platform that offer free cutting edge Tech related courses.",
-      videoID: "qUD2GxTeVcI",
-      githubUrl: "https://github.com/Stanezeaku/z-learning"),
+          "An Open source E-Learning platform app, with complete screens and widgets which are reusable in your flutter projects.",
+      videoID: "nvmAj3OTyyk",
+      githubUrl: "https://github.com/stanezeaku/zlearning"),
   // Project(
   //     title: "Ispend",
   //     description:
