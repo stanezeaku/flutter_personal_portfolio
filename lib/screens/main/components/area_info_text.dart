@@ -24,7 +24,10 @@ class AreaInfoText extends StatelessWidget {
               style: const TextStyle(color: Colors.white),
             ),
             const SizedBox(width: defaultPadding / 2),
-            Text(text!),
+            Text(
+              text!,
+              style: const TextStyle(color: Colors.white70),
+            ),
           ],
         ),
       ),

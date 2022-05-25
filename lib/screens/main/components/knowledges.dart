@@ -21,7 +21,7 @@ class Knowledges extends StatelessWidget {
             style: Theme.of(context).textTheme.subtitle2,
           ),
         ),
-        const KnowledgeText(text: "Flutter, Dart"),
+        const KnowledgeText(text: "Flutter, AI"),
         const KnowledgeText(text: "Google Cloud, AWS"),
         const KnowledgeText(text: "Git, GitHub, DevOps"),
         const KnowledgeText(text: "Adobe XD, PhotoShop"),

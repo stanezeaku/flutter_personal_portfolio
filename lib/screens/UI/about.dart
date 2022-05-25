@@ -68,13 +68,13 @@ class _AboutState extends State<About> {
                   Wrap(
                     children: const [
                       AutoSizeText(
-                        "Hey! I'm Stanley Ezeaku, a Software Developer based in Dubai, UAE.\n\nI love building software applications that are innovative to human improvement and advancement\n\n",
+                        "A passionate software engineer with professional experience in building high-performance, scalable, maintainable, adaptive, responsive cross-platform application and software using modern cross-platform and AI technologies.\n\n",
                         style: TextStyle(
                           color: Colors.white,
                         ),
                       ),
                       AutoSizeText(
-                        "As a self-thought software developer my principle of suceess are clear thought and revolve around my shared roapmap. I am a lover of open source and my ambition is to build and proudly own a multinational tech company which main goal is to solve African needs, provide innovative tech solutions and empowerment.\n\n",
+                        "Have demonstrated expertise in Dart, Python, Flutter, TensorFlow, Scikit-Learn, Machine Learning Modeling and Preprocessing, Firebase, Cloud Database, Data Analysis, ML Algorithms, Software Architectures, Application State Managements(Providers, RiverPod etc), Wordpress, Adobe XD, Digital Marketing, SEO, SEM. With distinct eyes for design, attention to detail, and passion for technology and business, I work and volunteer with diverse companies and teams which continue to contribute to my dedicated, collaborative and agile work ethic.\n\n",
                         style: TextStyle(
                           color: Colors.white,
                         ),
