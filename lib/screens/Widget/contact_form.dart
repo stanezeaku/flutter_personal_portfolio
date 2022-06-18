@@ -21,6 +21,7 @@ class _ContactFormState extends State<ContactForm> {
   late TextEditingController _controllerEmail;
   late TextEditingController _controllerSubject;
   late TextEditingController _controllerMessage;
+  final _formKey = GlobalKey<FormState>();
 
   void clearText() {
     _controllerName.clear();
@@ -62,6 +63,11 @@ class _ContactFormState extends State<ContactForm> {
     }
   }
 
+  bool validateUsername(String? value) {
+    if (value!.isEmpty) return false;
+    return true;
+  }
+
   @override
   void initState() {
     _controllerName = TextEditingController();
@@ -83,6 +89,7 @@ class _ContactFormState extends State<ContactForm> {
   @override
   Widget build(BuildContext context) {
     return Form(
+      key: _formKey,
       child: Column(
         children: [
           TextFormField(
@@ -95,6 +102,13 @@ class _ContactFormState extends State<ContactForm> {
                 color: Colors.grey,
               ),
             ),
+            validator: (value) {
+              if (value == null || value.isEmpty || value == '') {
+                return 'Please enter your full name';
+              }
+              return null;
+            },
+            onChanged: (value) => validateUsername(value),
           ),
           const SizedBox(
             height: 20,
@@ -109,6 +123,16 @@ class _ContactFormState extends State<ContactForm> {
                 color: Colors.grey,
               ),
             ),
+            validator: (value) {
+              if (value == null || value.isEmpty || value == '') {
+                return 'Please enter your email';
+              } else if (value.isNotEmpty && !value.contains('@') ||
+                  !value.contains('.')) {
+                return 'Please enter a valid email';
+              }
+              return null;
+            },
+            onChanged: (value) => validateUsername(value),
           ),
           const SizedBox(
             height: 20,
@@ -123,6 +147,13 @@ class _ContactFormState extends State<ContactForm> {
                 color: Colors.grey,
               ),
             ),
+            validator: (value) {
+              if (value == null || value.isEmpty || value == '') {
+                return 'Subject cannot be empty';
+              }
+              return null;
+            },
+            onChanged: (value) => validateUsername(value),
           ),
           const SizedBox(
             height: 20,
@@ -138,13 +169,22 @@ class _ContactFormState extends State<ContactForm> {
                 color: Colors.grey,
               ),
             ),
+            validator: (value) {
+              if (value == null || value.isEmpty || value == '') {
+                return 'Message cannot be empty';
+              }
+              return null;
+            },
+            onChanged: (value) => validateUsername(value),
           ),
           const SizedBox(
             height: 20,
           ),
           ElevatedButton(
             onPressed: () {
-              sendEmail();
+              if (_formKey.currentState!.validate()) {
+                sendEmail();
+              }
             },
             child: const Text(
               "SEND",
