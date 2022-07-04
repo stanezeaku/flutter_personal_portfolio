@@ -47,13 +47,11 @@ class _HomePageState extends State<HomePage> {
                 ? setState(
                     () {
                       isExpaned = false;
-                      print('setState is called');
                     },
                   )
                 : {}
             : isExpaned != true
                 ? setState(() {
-                    print('setState is called');
                     isExpaned = true;
                   })
                 : {},
@@ -317,7 +315,7 @@ class _HomePageState extends State<HomePage> {
                         quarterTurns: 45,
                         child: FittedBox(
                           child: Text(
-                            "ezeakuifechukwustanley@gmail.com",
+                            "stanleyezeakuu@gmail.com",
                             style: TextStyle(
                               color: Colors.grey.withOpacity(0.6),
                               letterSpacing: 3.0,

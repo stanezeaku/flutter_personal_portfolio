@@ -47,7 +47,7 @@ class Skills extends StatelessWidget {
             Expanded(
               child: AnimatedCircularProgressIndicator(
                 percentage: 0.75,
-                label: "Scikit",
+                label: "Django",
               ),
             ),
           ],

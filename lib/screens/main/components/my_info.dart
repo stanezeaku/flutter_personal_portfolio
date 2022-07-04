@@ -40,7 +40,7 @@ class MyInfo extends StatelessWidget {
             ),
             const FittedBox(
               child: Text(
-                "Flutter | Python Software Engineer & Founder\n Zijemu",
+                "Software Engineer & Data Analyst",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                     fontWeight: FontWeight.w200,

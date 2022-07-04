@@ -68,13 +68,13 @@ class _AboutState extends State<About> {
                   Wrap(
                     children: const [
                       AutoSizeText(
-                        "A passionate software engineer with professional experience in building high-performance, scalable, maintainable, adaptive, responsive cross-platform application and software using modern cross-platform and AI technologies.\n\n",
+                        "A Software Engineer and a Solution-focused Business Intelligence Analyst with over 2 years of professional experience building high-performance, scalable, maintainable, adaptive, responsive cross-platform applications and leveraging data analytics and reporting packages to shape business decisions.\n\n",
                         style: TextStyle(
                           color: Colors.white,
                         ),
                       ),
                       AutoSizeText(
-                        "Have demonstrated expertise in Dart, Python, Flutter, TensorFlow, Scikit-Learn, Machine Learning Modeling and Preprocessing, Firebase, Cloud Database, Data Analysis, ML Algorithms, Software Architectures, Application State Managements(Providers, RiverPod etc), Wordpress, Adobe XD, Digital Marketing, SEO, SEM. With distinct eyes for design, attention to detail, and passion for technology and business, I work and volunteer with diverse companies and teams which continue to contribute to my dedicated, collaborative and agile work ethic.\n\n",
+                        "Demonstrate expertise in Flutter, TensorFlow, Django, Firebase, Data Analysis, and Visualization with Power BI to transform data into Impactful Insights to improve profitability, costs, and operations. Have distinct eyes for design and a passion for technology and business. Skill working and volunteering with diverse companies, multicultural stakeholders, and teams that contribute to my dedicated, collaborative, and agile ethic.\n\n",
                         style: TextStyle(
                           color: Colors.white,
                         ),

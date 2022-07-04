@@ -31,15 +31,15 @@ class Coding extends StatelessWidget {
         ),
         const AnimatedLinearProgressIndicator(
           percentage: 0.65,
-          label: "Kotlin",
+          label: "HTML",
         ),
         const AnimatedLinearProgressIndicator(
           percentage: 0.6,
-          label: "SQL",
+          label: "JavaScript",
         ),
         const AnimatedLinearProgressIndicator(
           percentage: 0.6,
-          label: "Java",
+          label: "M Code",
         ),
       ],
     );

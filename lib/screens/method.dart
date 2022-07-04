@@ -20,8 +20,8 @@ class Method {
   }
 
   launchEmail() async {
-    if (await canLaunch("mailto:ezeakuifechukwustanley@gmail.com")) {
-      await launch("mailto:ezeakuifechukwustanley@gmail.com");
+    if (await canLaunch("mailto:stanleyezeakuu@gmail.com")) {
+      await launch("mailto:stanleyezeakuu@gmail.com");
     } else {
       throw 'Could not launch';
     }
