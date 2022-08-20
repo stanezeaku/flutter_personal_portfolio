@@ -3,8 +3,9 @@ import 'package:url_launcher/url_launcher.dart';
 class Method {
   launchURL(String link) async {
     var url = link;
-    if (await canLaunch(url)) {
-      await launch(url);
+    Uri uri = Uri.parse(link);
+    if (await canLaunchUrl(uri)) {
+      await launchUrl(uri);
     } else {
       throw 'Could not launch $url';
     }
@@ -12,16 +13,18 @@ class Method {
 
   launchCaller() async {
     const url = "tel:00971565548121";
-    if (await canLaunch(url)) {
-      await launch(url);
+    Uri uri = Uri.parse(url);
+    if (await canLaunchUrl(uri)) {
+      await launchUrl(uri);
     } else {
       throw 'Could not launch $url';
     }
   }
 
   launchEmail() async {
-    if (await canLaunch("mailto:stanleyezeakuu@gmail.com")) {
-      await launch("mailto:stanleyezeakuu@gmail.com");
+    Uri uri = Uri.parse("mailto:stanleyezeakuu@gmail.com");
+    if (await canLaunchUrl(uri)) {
+      await launchUrl(uri);
     } else {
       throw 'Could not launch';
     }

@@ -42,7 +42,8 @@ dependencies:
   riverpod: ^1.0.3
   font_awesome_flutter: ^10.1.0
   scroll_to_index: ^2.1.1
-  url_launcher: ^6.0.20
+  
+  url_launcher: ^6.1.5
   rive: ^0.8.4
   chewie: ^1.3.1
   video_player: ^2.3.0
