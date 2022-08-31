@@ -40,7 +40,7 @@ class MyInfo extends StatelessWidget {
             ),
             const FittedBox(
               child: Text(
-                "Software Engineer & Data Analyst",
+                "Senior Software Engineer",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                     fontWeight: FontWeight.w200,
