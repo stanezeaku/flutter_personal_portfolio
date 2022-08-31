@@ -51,7 +51,7 @@ class SideMenu extends StatelessWidget {
                       TextButton(
                         onPressed: () {
                           method.launchURL(
-                              "https://drive.google.com/file/d/1bjeqiqYPAylqBfOyyRulc0_ATgEqVe4F/view?usp=sharing");
+                              "https://drive.google.com/file/d/1O2cWZyTKPqasY9Md1O_NJIPYvfO75qkt/view?usp=sharing");
                         },
                         child: FittedBox(
                           child: Row(

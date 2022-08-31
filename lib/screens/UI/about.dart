@@ -68,13 +68,13 @@ class _AboutState extends State<About> {
                   Wrap(
                     children: const [
                       AutoSizeText(
-                        "A Software Engineer and a Solution-focused Business Intelligence Analyst with over 2 years of professional experience building high-performance, scalable, maintainable, adaptive, responsive cross-platform applications and leveraging data analytics and reporting packages to shape business decisions.\n\n",
+                        "Software Engineer with over 3 years of professional experience building high-performance, scalable, maintainable, adaptive, and responsive cross-platform mobile applications. Experienced with all stages of the development cycle for mobile projects.  Solutions are based on Flutter, Django, Firebase, Mysql, Postgresql, Rect.js, Next.js, etc.\n\n",
                         style: TextStyle(
                           color: Colors.white,
                         ),
                       ),
                       AutoSizeText(
-                        "Demonstrate expertise in Flutter, TensorFlow, Django, Firebase, Data Analysis, and Visualization with Power BI to transform data into Impactful Insights to improve profitability, costs, and operations. Have distinct eyes for design and a passion for technology and business. Skill working and volunteering with diverse companies, multicultural stakeholders, and teams that contribute to my dedicated, collaborative, and agile ethic.\n\n",
+                        "While leveraging the open source technologies such as TensorFlow and others. Strong background in management and leadership, proven leader with excellent interpersonal and motivational abilities to develop collaborative relationships among high-functioning teams. Exceptional with an aptitude for troubleshooting and the ability to quickly master a new skill, technology, or role.\n\n",
                         style: TextStyle(
                           color: Colors.white,
                         ),
