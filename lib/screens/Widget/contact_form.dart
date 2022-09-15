@@ -223,7 +223,9 @@ simpleInputIconText(text, icn) {
 
 simpleButton() {
   return ElevatedButton.styleFrom(
-    foregroundColor: Colors.black, backgroundColor: primaryColor, elevation: 0,
+    elevation: 0,
+    primary: primaryColor,
+    onPrimary: Colors.black,
     minimumSize: const Size.fromHeight(50),
     shape: RoundedRectangleBorder(
       borderRadius: BorderRadius.circular(15),
