@@ -2,12 +2,12 @@ import 'package:url_launcher/url_launcher.dart';
 
 class Method {
   launchURL(String link) async {
-    var url = link;
+    var urlLink = link;
     Uri uri = Uri.parse(link);
     if (await canLaunchUrl(uri)) {
       await launchUrl(uri);
     } else {
-      throw 'Could not launch $url';
+      throw 'Could not launch $urlLink';
     }
   }
 
