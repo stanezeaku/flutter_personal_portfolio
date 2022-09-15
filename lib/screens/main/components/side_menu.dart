@@ -26,7 +26,7 @@ class SideMenu extends StatelessWidget {
             const MyInfo(),
             Expanded(
               child: Scrollbar(
-                showTrackOnHover: true,
+                trackVisibility: true,
                 child: SingleChildScrollView(
                   physics: const ScrollPhysics(),
                   controller: _controller,
